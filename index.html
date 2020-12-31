@@ -4,13 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1>Posts</h1>
+  <h1>Featuress</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
+  <ul class="features">
+    {% for feature in site.features %}
       <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-date">{{ feature.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ feature.url | prepend: site.baseurl }}">{{ feature.title }}</a>
       </li>
     {% endfor %}
   </ul>
