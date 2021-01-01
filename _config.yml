@@ -64,6 +64,11 @@ address:
 markdown: kramdown
 permalink: pretty
 
+# Excerpt Word Length
+# Truncates the excerpt to the specified number of words on the index page
+excerpt_length: 50
+
+# Collections other then Posts
 collections:
   features:
     output: true
