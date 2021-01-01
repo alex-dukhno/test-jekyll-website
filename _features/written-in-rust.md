@@ -1,7 +1,6 @@
 ---
 title: Written In Rust
 subtitle: Written In Rust
-layout: default
 modal-id: 3
 date: 2014-07-18
 img: dreams.png
